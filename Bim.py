@@ -473,7 +473,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('Nak Berapo Target ? : ')
+		jum = int(input('Mau Berapa Target ? : '))
 	except ValueError:
 		print('>> Salah Nonokk ')
 		exit()
