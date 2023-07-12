@@ -763,9 +763,9 @@ def passwrd():
 	os.system('clear')
 	banner()
 	print('')
-	print(f'|Hasel {h}OK{x} Ɑ͞ ̶͞ ̶͞ ඩTersimpan Di : {h}OK/%s {x}'%(okc))
-	print(f'|Hasel {k}OK{x} Ɑ͞ ̶͞ ̶͞ ඩTersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'| Mainkan ??Ɑ͞ ̶͞ ̶͞ ඩ ??Pesawat {m}200{x} Id\n')
+	print(f'|Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
+	print(f'|Hasil {k}OK{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'| Mainkan Mode Pesawat Setiap {m}200{x} Id\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -782,9 +782,6 @@ def passwrd():
 					pwv.append(frs+'01')
 					pwv.append(frs+'02')
 					pwv.append(frs+'03')
-					pwv.append(frs+'04')
-					pwv.append(frs+'05')
-					pwv.append(frs+'06')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -797,9 +794,6 @@ def passwrd():
 					pwv.append(frs+'01')
 					pwv.append(frs+'02')
 					pwv.append(frs+'03')
-					pwv.append(frs+'04')
-					pwv.append(frs+'05')
-					pwv.append(frs+'06')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
