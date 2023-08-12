@@ -100,7 +100,7 @@ for xd in range(10000):
 
 	aa='Mozilla/5.0 (Linux; Android 4.4.2;'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='D2212 Build/18.4.B.1.20) AppleWebKit/537.36 (KHTML like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.1.483 ,
+	c='D2212 Build/18.4.B.1.20)
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
